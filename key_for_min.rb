@@ -8,7 +8,7 @@ end
 
 min = { :random => 0}
 name_hash.each do |key, value|
-  if min[:random] < value
+  if min[:random] > value
     min[:random] = value
   end
 end
