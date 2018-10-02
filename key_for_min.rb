@@ -6,7 +6,7 @@ if name_hash == {}
    return nil 
 end
 
-min = { :random => 0}
+min = { :random => 1000000000}
 name_hash.each do |key, value|
   if min[:random] > value
     min[:random] = value
