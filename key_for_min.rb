@@ -13,5 +13,5 @@ name_hash.each do |key, value|
   end
 end
 
-name_hash.has_value? (min[:random])
+name_hash.key (min[:random])
 end
